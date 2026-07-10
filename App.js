@@ -23,7 +23,7 @@ function App() {
   }, []);
 
   return (
-    <Provider store={store}>
+    <Provider store={storee}>
       <ToastProvider>
         <Route />
       </ToastProvider>
