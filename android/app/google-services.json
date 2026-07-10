@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "185067876360",
+    "project_id": "rwaconnect-3ca62",
+    "storage_bucket": "rwaconnect-3ca62.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185067876360:android:1f6536782be871394821bd",
+        "android_client_info": {
+          "package_name": "com.my_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRxVa6JNywUpwt3s6NsNmqIjTf-LQY6RQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "my_app",
+  "displayName": "my_app",
+
+  
+  "plugins": [
+    "@notifee/react-native"  
+  ]
+}

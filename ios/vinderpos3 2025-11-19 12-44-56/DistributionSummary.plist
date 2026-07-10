@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>vinderpos3.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>15</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>A0A64A9E1AC56F99321E27C43273D4385EBD5961</string>
+				<key>dateExpires</key>
+				<string>03/09/26</string>
+				<key>type</key>
+				<string>Cloud Managed Apple Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A0A64A9E1AC56F99321E27C43273D4385EBD5961</string>
+						<key>dateExpires</key>
+						<string>03/09/26</string>
+						<key>type</key>
+						<string>Cloud Managed Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>OneSignal.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>Q598CHGL9K</string>
+						<key>name</key>
+						<string>SAMISHTI INFOTECH PRIVATE LIMITED</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A0A64A9E1AC56F99321E27C43273D4385EBD5961</string>
+						<key>dateExpires</key>
+						<string>03/09/26</string>
+						<key>type</key>
+						<string>Cloud Managed Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>OneSignalCore.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>Q598CHGL9K</string>
+						<key>name</key>
+						<string>SAMISHTI INFOTECH PRIVATE LIMITED</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A0A64A9E1AC56F99321E27C43273D4385EBD5961</string>
+						<key>dateExpires</key>
+						<string>03/09/26</string>
+						<key>type</key>
+						<string>Cloud Managed Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>OneSignalExtension.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>Q598CHGL9K</string>
+						<key>name</key>
+						<string>SAMISHTI INFOTECH PRIVATE LIMITED</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A0A64A9E1AC56F99321E27C43273D4385EBD5961</string>
+						<key>dateExpires</key>
+						<string>03/09/26</string>
+						<key>type</key>
+						<string>Cloud Managed Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>OneSignalOutcomes.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>Q598CHGL9K</string>
+						<key>name</key>
+						<string>SAMISHTI INFOTECH PRIVATE LIMITED</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>Q598CHGL9K.org.reactjs.native.example.vinderpos3</string>
+				<key>aps-environment</key>
+				<string>production</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>Q598CHGL9K</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>vinderpos3.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>35381f29-10bf-4cf3-8a34-e1b3b39181be</string>
+				<key>dateExpires</key>
+				<string>03/09/26</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: org.reactjs.native.example.vinderpos3</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>Q598CHGL9K</string>
+				<key>name</key>
+				<string>SAMISHTI INFOTECH PRIVATE LIMITED</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>4.0.9</string>
+		</dict>
+	</array>
+</dict>
+</plist>
