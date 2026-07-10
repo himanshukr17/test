@@ -1,0 +1,47 @@
+name: ci
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: yarn
+
+      - name: Install Dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Debug Env
+        run: |
+          echo "URL1 is: [$REACT_APP_API_URL1]"
+          echo "Protocol is: [$REACT_APP_API_PROTOCOL]"
+        env:
+          REACT_APP_API_URL1: ${{ vars.REACT_APP_API_URL1 }}
+          REACT_APP_API_URL: ${{ vars.REACT_APP_API_URL }}
+          REACT_APP_API_PROTOCOL: ${{ vars.REACT_APP_API_PROTOCOL }}
+
+      - name: Build Application
+        run: yarn build
+        env:
+          REACT_APP_API_URL1: ${{ vars.REACT_APP_API_URL1 }}
+          REACT_APP_API_PROTOCOL: ${{ vars.REACT_APP_API_PROTOCOL }}
+          REACT_APP_API_URL: ${{ vars.REACT_APP_API_URL }}
+          GENERATE_SOURCEMAP: ${{ vars.GENERATE_SOURCEMAP }}
+
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: react-build
+          path: build
+          retention-days: 5
